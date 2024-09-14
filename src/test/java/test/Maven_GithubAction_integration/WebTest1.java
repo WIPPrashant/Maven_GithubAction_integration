@@ -18,5 +18,9 @@ public class WebTest1 {
 	public void Test3() {
 		System.out.println("test case skiped");
 	}
+	@Test(priority=4)
+	public void Test4() {
+		System.out.println("test case skiped");
+	}
 
 }
