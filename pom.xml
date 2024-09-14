@@ -11,15 +11,15 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <!--<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-    <maven.compiler.source>1.8</maven.compiler.source>
-     <maven.compiler.target>1.8</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   <!-- <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>-->
   </properties>
   
-  <build>
+  <!-- <build>
             <plugins>  
             
-           <!-- <plugin>
+           <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.13.0</version>
@@ -27,9 +27,9 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-			</plugin>  -->     
-                <!--https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html-->
-                <plugin>
+			</plugin>     
+              https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html-->
+               <!--  <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.3.0</version>
@@ -42,7 +42,7 @@
             </plugins>
        
         
-    </build>
+    </build> --> 
 
   <dependencies>
     <dependency>
