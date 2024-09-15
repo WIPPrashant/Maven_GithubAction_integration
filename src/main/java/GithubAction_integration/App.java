@@ -1,4 +1,4 @@
-package test.Maven_GithubAction_integration;
+package GithubAction_integration;
 
 /**
  * Hello world!
